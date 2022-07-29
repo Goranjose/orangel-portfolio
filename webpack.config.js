@@ -15,7 +15,7 @@ module.exports = {
     extensions: [".js", ".jsx"],
   },
 
-  mode: "prodution",
+  mode: "production",
   
   module: {
     rules: [
