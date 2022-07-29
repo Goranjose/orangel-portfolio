@@ -1,0 +1,137 @@
+.card {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__article {
+  width: 420px;
+  height: 280px;
+  /* overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  border-radius: 4px;
+}
+
+.card__img {
+  position: absolute;
+  width: 420px;
+  height: 280px;
+  border-radius: 4px;
+}
+
+.card__info {
+  position: absolute;
+  display: flex;
+  width: 420px;
+  height: 280px;
+  transition: 0.3s all ease-in-out;
+  opacity: 0;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 28px;
+}
+
+.card__info:hover {
+  transition: 0.3s all ease-in-out;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.card__info h3 {
+  font-size: 1.6rem;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.card__info p {
+  font-size: 1.6rem;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.card__info button {
+  padding: 4px 20px;
+  border: white solid 1px;
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.card__info button a {
+  font-size: 1.6rem;
+  color: white;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 960px) {
+  .card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card__article {
+    width: 280px;
+    height: 260px;
+    border-radius: 4px;
+  }
+
+  .card__img {
+    position: absolute;
+    width: 280px;
+    height: 260px;
+    border-radius: 4px;
+  }
+
+  .card__info {
+    position: absolute;
+    display: flex;
+    width: 280px;
+    height: 260px;
+    transition: 0.3s all ease-in-out;
+    opacity: 0;
+    border-radius: 4px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 28px;
+  }
+
+  .card__info:hover {
+    transition: 0.3s all ease-in-out;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .card__info h3 {
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 8px;
+  }
+
+  .card__info p {
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 16px;
+  }
+
+  .card__info button {
+    padding: 4px 20px;
+    border: white solid 1px;
+    background-color: transparent;
+    border-radius: 4px;
+  }
+
+  .card__info button a {
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+}
