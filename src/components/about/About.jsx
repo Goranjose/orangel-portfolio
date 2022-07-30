@@ -9,10 +9,7 @@ function About() {
       <div className="about__description">
         <h2>Let me tell you something about me</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
-          provident inventore quod voluptates sequi. Quis, necessitatibus omnis
-          iusto perferendis dolores voluptate et dolorum inventore autem nemo,
-          quos eveniet magni nesciunt.
+          I am a frontend developer, I like to learn a lot about new technologies and I like to do things in the best way, with dedication, commitment.
         </p>
         <div className="container">
           <a className="container__button" href={pdf} download>

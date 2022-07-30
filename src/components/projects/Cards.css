@@ -7,26 +7,23 @@
 
 .card__article {
   width: 420px;
-  height: 280px;
-  /* overflow: hidden;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
+  height: 240px;
   border-radius: 4px;
 }
 
 .card__img {
   position: absolute;
   width: 420px;
-  height: 280px;
+  height: 240px;
   border-radius: 4px;
+  border: 2px solid white;
 }
 
 .card__info {
   position: absolute;
   display: flex;
   width: 420px;
-  height: 280px;
+  height: 240px;
   transition: 0.3s all ease-in-out;
   opacity: 0;
   border-radius: 4px;
@@ -69,31 +66,25 @@
 }
 
 @media only screen and (max-width: 960px) {
-  .card {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
 
   .card__article {
-    width: 280px;
-    height: 260px;
+    width: 320px;
+    height: 220px;
     border-radius: 4px;
   }
 
   .card__img {
     position: absolute;
-    width: 280px;
-    height: 260px;
+    width: 320px;
+    height: 220px;
     border-radius: 4px;
   }
 
   .card__info {
     position: absolute;
     display: flex;
-    width: 280px;
-    height: 260px;
+    width: 320px;
+    height: 220px;
     transition: 0.3s all ease-in-out;
     opacity: 0;
     border-radius: 4px;
@@ -101,12 +92,6 @@
     justify-content: flex-end;
     align-items: center;
     padding-bottom: 28px;
-  }
-
-  .card__info:hover {
-    transition: 0.3s all ease-in-out;
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0.4);
   }
 
   .card__info h3 {

@@ -1,0 +1,84 @@
+.contact {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding-top: 80px;
+  flex-direction: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.contact__title {
+  width: 100%;
+  height: 128px;
+}
+
+.contact__title h2 {
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 24px;
+  width: 100%;
+}
+
+.contact__links {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.social-media {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: center;
+}
+
+.social-media li {
+  margin: 20px;
+  font-size: 6rem;
+}
+
+.social-media li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.4);
+}
+
+.social-media li a:hover {
+  transition: 0.3s all ease-in-out;
+  opacity: 80%;
+}
+
+@media only screen and (max-width: 960px) {
+  .contact {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .contact-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-container {
+    width: 100%;
+  }
+
+  .contact__links {
+    width: 100%;
+  }
+
+}

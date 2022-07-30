@@ -53,6 +53,7 @@ function Projects() {
                   description={image.description}
                   img={image.img}
                   url={image.url}
+                  key={image.id}
                 />
               ))}
           </div>

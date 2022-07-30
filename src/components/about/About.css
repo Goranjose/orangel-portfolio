@@ -44,9 +44,8 @@
 }
 
 .container__button:hover {
-  color: black;
   transition: 0.3s all ease-in-out;
-  background-color: white;
+  opacity: 80%;
 }
 
 .about__img {
